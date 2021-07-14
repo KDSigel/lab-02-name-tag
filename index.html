@@ -8,20 +8,44 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
+    <main id='sticker-whole'>
     <!-- grid 1 -->
         <section class='greet'>
             <h1>HELLO</h1>
             <h2>my name is</h2>
         </section>
     <!-- grid 2 -->
-        <section class='name'>
+        <section class='name' id="oldName">
             Karl
         </section>
     <!-- grid 3 -->
         <section class='bottom'>
         </section>
     </main>
-  
+
+    <content class='change-features'>
+    
+        <p>
+    <!-- change name input  -->
+            <content>change name to:</content>
+            <input id="name-input" />
+    <!-- change name button  -->
+            <button id="change-button">Change name!</button>
+        </p>
+    <!-- change background color -->
+        <p>
+            <button id="color-button-pink">Change name tag to pink</button>
+            <button id="color-button-lightgreen">Change name tag to light green</button>
+            <button id="color-button-lightblue">Change name tag to light blue</button>
+        </p>
+
+        <!-- add pronouns -->
+        <!-- <button id="they-them-pronouns">add They/Them pronouns</button>
+        <button id="she-her-pronouns">add She/Her pronouns</button>
+        <button id="he-him-pronouns">add He/Him pronouns</button> -->
+
+    </content>
+
+    <script type="module" src="./app.js"></script>
 </body>
 </html>
